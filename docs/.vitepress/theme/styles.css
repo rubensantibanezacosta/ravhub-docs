@@ -1,0 +1,125 @@
+.doc-icon {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.doc-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 0 0 2rem;
+  padding: 1.25rem 1.25rem 1rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 18px;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(72, 99, 255, 0.12),
+      transparent 32%
+    ),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0));
+}
+
+.doc-header__badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 14px;
+  color: var(--vp-c-brand-1);
+  background: rgba(72, 99, 255, 0.12);
+  border: 1px solid rgba(72, 99, 255, 0.18);
+  flex: 0 0 auto;
+}
+
+.doc-header__logo {
+  width: 1.9rem;
+  height: 1.9rem;
+  object-fit: contain;
+}
+
+.doc-header__content {
+  min-width: 0;
+}
+
+.doc-header__content h1 {
+  margin: 0;
+  border-top: 0;
+  padding-top: 0;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.doc-header__content p {
+  margin: 0.5rem 0 0;
+  color: var(--vp-c-text-2);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.doc-link-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.9rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.doc-link-card {
+  display: block;
+  padding: 1rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 16px;
+  text-decoration: none;
+  color: inherit;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    background 0.2s ease;
+  background: var(--vp-c-bg-soft);
+}
+
+.doc-link-card:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-2px);
+}
+
+.doc-link-card__title {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-weight: 600;
+  margin-bottom: 0.45rem;
+}
+
+.doc-link-card__text {
+  color: var(--vp-c-text-2);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.doc-section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.doc-inline-icon {
+  margin-right: 0.35rem;
+  color: var(--vp-c-brand-1);
+}
+
+@media (max-width: 640px) {
+  .doc-header {
+    padding: 1rem;
+  }
+
+  .doc-header__content h1 {
+    font-size: 1.7rem;
+  }
+
+  .doc-header__logo {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+}

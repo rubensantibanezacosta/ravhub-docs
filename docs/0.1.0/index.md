@@ -1,14 +1,14 @@
 ---
-title: Inicio
-description: Documentación pública de RavHub Beta sobre producto, estado de Core y Enterprise, despliegue y uso desde clientes.
+title: Inicio · 0.1.0
+description: Documentación de RavHub 0.1.0 sobre producto, Beta pública de Core, estado de Enterprise y uso desde clientes.
 ---
 
 <DocHeader
 	icon="docs"
 	logo-src="/logo.svg"
 	logo-alt="RavHub"
-	title="RavHub Docs"
-	lead="Documentación pública de RavHub Beta, centrada en Core: qué ofrece hoy, cómo desplegarlo y cómo usarlo desde clientes reales."
+	title="RavHub Docs 0.1.0"
+	lead="Documentación de RavHub 0.1.0 centrada en la Beta pública de Core, el estado de Enterprise y el uso desde clientes."
 />
 
 ## Qué incluye
@@ -24,19 +24,19 @@ description: Documentación pública de RavHub Beta sobre producto, estado de Co
 <div class="doc-link-grid">
 	<a class="doc-link-card" href="./product/what-is-ravhub">
 		<div class="doc-link-card__title"><DocIcon name="home" />Qué es RavHub</div>
-		<div class="doc-link-card__text">Resumen del producto, qué resuelve y qué puedes hacer con él.</div>
+		<div class="doc-link-card__text">Resumen del producto en la release 0.1.0.</div>
 	</a>
 	<a class="doc-link-card" href="./product/core-vs-enterprise">
 		<div class="doc-link-card__title"><DocIcon name="product" />Producto</div>
-		<div class="doc-link-card__text">Qué está disponible hoy en Beta y cuál es el estado de Enterprise.</div>
+		<div class="doc-link-card__text">Qué estaba disponible en 0.1.0 y cuál era el estado de Enterprise.</div>
 	</a>
 	<a class="doc-link-card" href="./product/core-vs-enterprise">
 		<div class="doc-link-card__title"><DocIcon name="operation" />Operación</div>
-		<div class="doc-link-card__text">Despliega Core hoy y revisa el estado actual de Enterprise.</div>
+		<div class="doc-link-card__text">Despliega Core en 0.1.0 y revisa el estado de Enterprise en esa versión.</div>
 	</a>
 	<a class="doc-link-card" href="./clients/usage">
 		<div class="doc-link-card__title"><DocIcon name="pointer" />Clientes</div>
-		<div class="doc-link-card__text">Cómo usar RavHub desde npm, Maven, pip, Docker, Helm y más.</div>
+		<div class="doc-link-card__text">Cómo usar RavHub 0.1.0 desde npm, Maven, pip, Docker, Helm y más.</div>
 	</a>
 </div>
 
@@ -53,6 +53,4 @@ description: Documentación pública de RavHub Beta sobre producto, estado de Co
 
 ## Siguiente paso
 
-Empieza por [Core vs Enterprise](./product/core-vs-enterprise) si quieres ver qué está disponible hoy en Beta.
-
-Si ya lo tienes claro, salta directamente a [Core · Bare Docker](./deploy/core-bare-docker) o [Core · Helm Chart](./deploy/core-helm-chart).
+Empieza por [Core vs Enterprise](./product/core-vs-enterprise) si quieres ver qué estaba disponible en `0.1.0`.

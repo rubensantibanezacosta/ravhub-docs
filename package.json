@@ -1,15 +1,16 @@
 {
-  "name": "ravhub-docs",
-  "private": true,
-  "version": "0.1.0",
-  "description": "Base documentation site for RavHub built with VitePress.",
-  "packageManager": "pnpm@10.33.0",
-  "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  },
-  "devDependencies": {
-    "vitepress": "^1.6.3"
-  }
+    "name": "ravhub-docs",
+    "private": true,
+    "version": "0.1.0",
+    "description": "Base documentation site for RavHub built with VitePress.",
+    "packageManager": "pnpm@10.33.0",
+    "scripts": {
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "docs:preview": "vitepress preview docs"
+    },
+    "devDependencies": {
+        "lucide-vue-next": "^1.0.0",
+        "vitepress": "^1.6.3"
+    }
 }
